@@ -13,3 +13,6 @@ jQuery('.my_click_test').each(function() {
  jQuery('.addClassBlock .slick-arrow').on('click',function() {
    jQuery('.addClassBlock').removeClass('addWidth100');
  })
+
+
+jQuery('#topMenu li a').addClass('hvr-overline-from-center scroll');

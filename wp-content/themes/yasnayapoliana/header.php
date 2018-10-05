@@ -48,14 +48,35 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						</div> -->
 
 						<nav class="link-effect-9" id="link-effect-9">
-							<ul class="nav navbar-nav">
-								<!-- <li class="active"><a class="hvr-overline-from-center scroll" href="index.html">Home</a></li> -->
+							<!-- <ul class="nav navbar-nav">
 								<li><a href="#about" class="hvr-overline-from-center scroll">О поселке </a></li>
 								<li><a href="#team" class="hvr-overline-from-center scroll">Коттеджи</a></li>
 								<li><a href="#properties" class="hvr-overline-from-center scroll">Галлерея</a></li>
 								<li><a href="#blogs" class="hvr-overline-from-center scroll">Рассрочка</a></li>
 								<li><a href="#contact" class="hvr-overline-from-center scroll">Контакты</a></li>
-							</ul>
+							</ul> -->
+
+
+              <?php
+                                    wp_nav_menu(array(
+              'menu'            => 'primary',
+              'container'       => 'ul',
+              'menu_class'      => 'nav navbar-nav',
+              'menu_id'         => 'topMenu',
+              'echo'            => true,
+              'fallback_cb'     => 'wp_page_menu',
+              'before'          => '',
+              'after'           => '',
+              'link_before'     => '',
+              'link_after'      => '',
+              'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+              'depth'           => '',
+              'walker'          => '',
+
+                                      ));
+                                   ?>
+
+
 						</nav>
 					</div>
 					<!-- /.navbar-collapse -->
