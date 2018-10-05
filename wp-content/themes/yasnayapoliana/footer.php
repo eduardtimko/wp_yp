@@ -27,25 +27,14 @@
 
 <!-- js-scripts -->
 
-			<!-- js -->
-				<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-				<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
-				<script src="magnific-popup/dist/jquery.magnific-popup.js"></script>
-				<script src="slick/slick.js"></script>
-				<script src="js/script.js"></script>
-			<!-- //js -->
-
-
-
 			<!-- FlexSlider -->
-						<script defer src="js/jquery.flexslider.js"></script>
 						<script type="text/javascript">
 
-						$(window).load(function(){
-						  $('.flexslider').flexslider({
+						jQuery(window).load(function(){
+						  jQuery('.flexslider').flexslider({
 							animation: "slide",
 							start: function(slider){
-							  $('body').removeClass('loading');
+							  jQuery('body').removeClass('loading');
 							}
 						  });
 						});
@@ -54,8 +43,6 @@
 			<!-- End-slider-script -->
 
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
 <script type="text/javascript">
 
 	jQuery(document).ready(function($) {
@@ -70,10 +57,9 @@
 
 <!--responsive tabs -->
 
-							 <script src="js/easy-responsive-tabs.js"></script>
 <script>
-$(document).ready(function () {
-$('#horizontalTab').easyResponsiveTabs({
+jQuery(document).ready(function () {
+jQuery('#horizontalTab').easyResponsiveTabs({
 type: 'default', //Types: default, vertical, accordion
 width: 'auto', //auto or any width like 600px
 fit: true,   // 100% fit in a container
@@ -92,8 +78,8 @@ $info.show();
 <!-- // responsive tabs -->
 
  <script type="text/javascript">
-							$(window).load(function() {
-								$("#flexiselDemo1").flexisel({
+							jQuery(window).load(function() {
+								jQuery("#flexiselDemo1").flexisel({
 									visibleItems:3,
 									animationSpeed: 1000,
 									autoPlay: true,
@@ -119,22 +105,20 @@ $info.show();
 							});
 
 					</script>
-					<script type="text/javascript" src="js/jquery.flexisel.js"></script>
 
 
  <!-- Popup-Box-JavaScript -->
-		<script src="js/modernizr.custom.97074.js"></script>
-		<script src="js/jquery.chocolat.js"></script>
+
 
 		<script type="text/javascript">
-			$(function() {
-				$('.gallery-item a').Chocolat();
+			jQuery(function() {
+				jQuery('.gallery-item a').Chocolat();
 			});
 		</script>
 		<!-- //Popup-Box-JavaScript -->
 	<!-- Slide-To-Top JavaScript (No-Need-To-Change) -->
 		<script type="text/javascript">
-			$(document).ready(function() {
+			jQuery(document).ready(function() {
 				var defaults = {
 					containerID: 'toTop', // fading element id
 					containerHoverID: 'toTopHover', // fading element hover id
@@ -149,7 +133,7 @@ $info.show();
 
 	<!-- smooth scrolling -->
 	<script type="text/javascript">
-		$(document).ready(function() {
+		jQuery(document).ready(function() {
 		/*
 			var defaults = {
 			containerID: 'toTop', // fading element id
@@ -158,7 +142,7 @@ $info.show();
 			easingType: 'linear'
 			};
 		*/
-		$().UItoTop({ easingType: 'easeOutQuart' });
+		jQuery().UItoTop({ easingType: 'easeOutQuart' });
 		});
 	</script>
 <!-- //smooth scrolling -->
