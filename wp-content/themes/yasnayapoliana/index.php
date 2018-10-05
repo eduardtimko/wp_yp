@@ -11,6 +11,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--// Meta tag Keywords -->
 <!-- css files -->
+
+
+
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="all" property="" />
 <link href="css/easy-responsive-tabs.css" rel='stylesheet' type='text/css'/>
@@ -25,6 +28,10 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- slick css  -->
 <link href="slick/slick.css" rel="stylesheet" type="text/css" media="all">
 <link href="slick/slick-theme.css" rel="stylesheet" type="text/css" media="all">
+
+
+
+
 <!-- end slick css  -->
 <!-- //css files -->
 
