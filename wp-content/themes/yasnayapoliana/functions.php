@@ -1,4 +1,7 @@
 <?php
+// Добавление виджетов
+require get_template_directory() . '/inc/sidebars.php';
+// Конец добавление виджетов
 // Добавление скриптов и стилей
 require get_template_directory() . '/inc/registor_naw_manu.php';
 // Конец добавление скриптов и стилей

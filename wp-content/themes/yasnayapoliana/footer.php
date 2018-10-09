@@ -4,20 +4,11 @@
 			<a class="hvr-overline-from-center scroll footer-btn" href="#contact">Написать</a>
 		</div>
 		<div class="col-md-7 footer-main2">
-			<h4>Остались вопросы?</h4>
-			<p>Оставьте свой номер телефона и наши менеджеры свяжутся с вами для уточнения любых нюансов</p>
-			<!-- <ul>
-				<li><a href="#home" class="scroll">Home</a></li>
-				<li><a href="#about" class="scroll">About Us</a></li>
-				<li><a href="#team" class="scroll">Our Team</a></li>
-				<li><a href="#blogs" class="scroll">Blogs</a></li>
-				<li><a href="#properties" class="scroll">Properties</a></li>
-				<li><a href="#contact" class="scroll">contact Us</a></li>
-			</ul> -->
+			<?php dynamic_sidebar( 'footer_info_text' ); ?>
 		</div>
 		 <div class="clearfix"> </div>
 		<div class="copyright-agile">
-			<p>&copy; <a href="https://barsukov.by" >Агентство интернет-маркетинга</a> «Барсуков Медиа»</p>
+			<?php dynamic_sidebar( 'footer_info_copi' ); ?>
 		</div>
 	</div>
 </div>

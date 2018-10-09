@@ -172,7 +172,7 @@ h1,h2,h3,h4,h5,h6{
 /*-- banner --*/
 .banner-text{
 	min-height: 667px;
-	background:url(../images/new_img/55.jpg)no-repeat center 0px;
+	/* background:url(../images/new_img/55.jpg)no-repeat center 0px; */
 	background-size:cover;
 	position: relative;
 }
@@ -1904,7 +1904,7 @@ span.ftr-address-icons {
 }
 
 .wrap_servis_match{
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 .wrap_servis_match ul{ list-style-type: none; }
 .wrap_servis_match ul li{
@@ -1940,7 +1940,7 @@ video{
 }
 
 small{
-    display:  none; 
+    display:  none;
 }
 
 

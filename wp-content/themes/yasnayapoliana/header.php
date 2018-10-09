@@ -22,7 +22,8 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<div class="header" id="home">
 		<div class="container">
 			<div class="logo">
-				<h1><a href="index.html"><i><img src="images/logo.png" alt="" /></i>Ясная поляна</a></h1>
+				<?php  $logo_top = get_field('logo_top'); ?>
+				<h1><a href="index.html"><i><img src="<?php echo $logo_top; ?>" alt="" /></i>Ясная поляна</a></h1>
 			</div>
 
 			<div class="header-left">
@@ -48,13 +49,6 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 						</div> -->
 
 						<nav class="link-effect-9" id="link-effect-9">
-							<!-- <ul class="nav navbar-nav">
-								<li><a href="#about" class="hvr-overline-from-center scroll">О поселке </a></li>
-								<li><a href="#team" class="hvr-overline-from-center scroll">Коттеджи</a></li>
-								<li><a href="#properties" class="hvr-overline-from-center scroll">Галлерея</a></li>
-								<li><a href="#blogs" class="hvr-overline-from-center scroll">Рассрочка</a></li>
-								<li><a href="#contact" class="hvr-overline-from-center scroll">Контакты</a></li>
-							</ul> -->
 
 
               <?php
